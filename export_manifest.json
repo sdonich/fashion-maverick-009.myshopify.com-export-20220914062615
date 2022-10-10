@@ -1,0 +1,69 @@
+﻿{
+  "Version": "1.0",
+  "Url": null,
+  "FileName": null,
+  "Created": "2022-09-14T06:29:23.0276166Z",
+  "Checksum": null,
+  "Size": 0,
+  "UserId": "1adf685a-1d02-4c2b-b067-3dcd42a38f28",
+  "Shop": "fashion-maverick-009.myshopify.com",
+  "Items": [
+    {
+      "SortOrder": 0,
+      "ItemType": "Product",
+      "ItemsCount": 276
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Customer",
+      "ItemsCount": 180
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Blog",
+      "ItemsCount": 56
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Article",
+      "ItemsCount": 153
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Comment",
+      "ItemsCount": 462
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "CustomCollection",
+      "ItemsCount": 63
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "SmartCollection",
+      "ItemsCount": 31
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Order",
+      "ItemsCount": 8
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Page",
+      "ItemsCount": 20
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Theme",
+      "ItemsCount": 8
+    },
+    {
+      "SortOrder": 0,
+      "ItemType": "Asset",
+      "ItemsCount": 267
+    }
+  ],
+  "IsValid": true,
+  "Error": null
+}

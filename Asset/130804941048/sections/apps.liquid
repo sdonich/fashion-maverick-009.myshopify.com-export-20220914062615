@@ -1,0 +1,73 @@
+{% for block in section.blocks %}
+  {% if block.type == '@app' %}
+    {% render block %}
+  {% endif %}
+{% endfor %}
+
+{% schema %}
+{
+  "name": {
+    "bg-BG": "Приложения",
+    "cs": "Aplikace",
+    "da": "Apps",
+    "de": "Apps",
+    "en": "Apps",
+    "el": "Εφαρμογές",
+    "es": "Aplicaciones",
+    "fr": "Applications",
+    "fi": "Sovellukset",
+    "hr-HR": "Aplikacije",
+    "hu": "Appok",
+    "id": "Aplikasi",
+    "it": "App",
+    "ja": "アプリ",
+    "ko": "앱",
+    "nb": "Apper",
+    "nl": "Apps",
+    "pl": "Aplikacje",
+    "pt-BR": "Apps",
+    "ro-RO": "Aplicații",
+    "sk-SK": "Aplikácie",
+    "sv": "Appar",
+    "th": "แอป",
+    "tr": "Uygulamalar",
+    "vi": "Ứng dụng",
+    "zh-CN": "应用",
+    "zh-TW": "應用程式"
+  },
+  "settings": [],
+  "blocks": [{"type": "@app"}],
+  "presets": [{
+    "name": {
+      "bg-BG": "Приложения",
+      "cs": "Aplikace",
+      "da": "Apps",
+      "de": "Apps",
+      "en": "Apps",
+      "el": "Εφαρμογές",
+      "es": "Aplicaciones",
+      "fr": "Applications",
+      "fi": "Sovellukset",
+      "hr-HR": "Aplikacije",
+      "hu": "Appok",
+      "id": "Aplikasi",
+      "it": "App",
+      "ja": "アプリ",
+      "ko": "앱",
+      "nb": "Apper",
+      "nl": "Apps",
+      "pl": "Aplikacje",
+      "pt-BR": "Apps",
+      "ro-RO": "Aplicații",
+      "sk-SK": "Aplikácie",
+      "sv": "Appar",
+      "th": "แอป",
+      "tr": "Uygulamalar",
+      "vi": "Ứng dụng",
+      "zh-CN": "应用",
+      "zh-TW": "應用程式"
+    }
+  }]
+}
+{% endschema %}
+

@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "newsletter-heading": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "newsletter-paragraph": {
+          "type": "paragraph",
+          "settings": {
+          }
+        },
+        "newsletter-email_form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "newsletter-heading",
+        "newsletter-paragraph",
+        "newsletter-email_form"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
